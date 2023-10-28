@@ -1,0 +1,14 @@
+flex lexer.l
+gcc lex.yy.c -o lexer -lfl
+./lexer
+
+
+int main() {
+    int a = 5;
+    for (int i = 0; i < a; i++) {
+        printf("Hello, World!\n");
+        @
+    }
+    return 0;
+}
+
